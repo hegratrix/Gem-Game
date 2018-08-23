@@ -7,10 +7,13 @@
     <link rel="stylesheet" href="assets/style.css">
     <link href="https://fonts.googleapis.com/css?family=Rancho" rel="stylesheet">
     <title>Crystal Collector</title>
-
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <div class ="container">
+    <div class ="container-game">
 
         <div id ="miner-container">
             <img id ="miner" src="assets/images/miner.png" alt="Miner">
@@ -18,22 +21,41 @@
         </div>
 
         <div id = "graph-container">
-            <h4 id ="target-total">Target Total:</h2>
-            <h4 id ="target">153</h2>
+            <h4 id ="target-total">Goal Total:</h2>
+            <h4 id ="target"></h2>
             <div id = "graph">
                 <div id ="graph-background">
-                    <h4 id ="running-total">Total</h4>
+                    <h4 id ="running-total"></h4>
                 </div>
                 <img id ="filler" src="assets/images/graph2.jpg" alt="gems">
             </div>
         </div>
 
-        <div id = "gem-container">
-            <img class ="gem" id ="red-gem" src="assets/images/red gem.png" alt="">
-            <img class ="gem" id ="yellow-gem" src="assets/images/yellow gem.png" alt="">
-            <img class ="gem" id ="green-gem" src="assets/images/green gem.png" alt="">
-            <img class ="gem" id ="blue-gem" src="assets/images/blue gem.png" alt="">
+        <div id = "gem-container"> 
         </div>
+        
+        <h4 id = "remove">click to remove</h4>
+        
+        <div id = "gem-container2"> 
+        </div>
+
+        <div id = "button-container">
+            <button id ="reset">reset</button>
+            <button id = "restart">restart</button>
+        </div>
+
+        <div id ="scoreboard">
+            <h3 id = "wins">Wins: 0</h3>
+            <h3 id = "losses">Losses: 0</h3>
+        </div>
+
+        <img id ="border2" src="assets/images/border.jpg" alt="">
+        <img id ="border2" src="assets/images/border.jpg" alt="">
+        <img id ="border2" src="assets/images/border.jpg" alt="">
+        <img id ="border2" src="assets/images/border.jpg" alt="">
     </div>
+    
+
+    <script type= "text/JavaScript" src="assets/logic.js"></script>
 </body>
 </html>
