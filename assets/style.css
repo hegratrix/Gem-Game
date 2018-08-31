@@ -1,0 +1,248 @@
+body {
+    background-image: url("images/background5.jpg");
+    font-family: 'Rancho', cursive;
+}
+
+.container-index {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+    height: 900px;
+    background-color: #96f38d;
+    border: 2px solid rgb(153, 151, 151);
+}
+.container-game {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+    height: 728px;
+    background-color: #96f38d;
+    border: 2px solid rgb(153, 151, 151);
+}
+
+#border {
+    width: 240px;
+    float: left;
+    border-bottom: 2px solid rgb(153, 151, 151);
+}
+
+#border2 {
+    width: 240px;
+    float: left;
+    border-top: 2px solid rgb(153, 151, 151);
+}
+
+#title {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: -10px;
+}
+
+p {
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+button {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Rancho', cursive;
+    border-bottom: 2px solid rgb(153, 151, 151);
+    width: 90px;
+    height: 35px;
+    background-color: rgb(212, 209, 209);
+    font-size: 22px;
+}
+
+h2 {
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+#miner-container {
+    border-bottom: 3px solid black;
+    overflow: auto;
+    margin: 15px;
+    width: 635px;
+    margin-top: 45px;
+
+}
+
+#miner  {
+    height: 200px;
+    float: left;
+}
+
+#help-me {
+    margin-left: 30px;
+    font-size: 50px;
+    text-align: center;
+}
+
+#graph-container {
+    float: right;
+    width: 250px;
+    height: 385px;
+    margin: 15px;
+    position: absolute;
+    top: 30px;
+    right: 290px;
+    text-align: center;
+}
+
+#filler {
+    width: 250px;
+    height: 350px;
+}
+
+#target-total {
+    font-size: 20px;
+    margin: 0px;
+}
+
+#target {
+    font-size: 40px;
+    margin: 0px;
+}
+
+#running-total {
+    font-size: 30px;
+    position: absolute;
+    z-index: 2;
+    margin: 0px;
+    bottom: 0px;
+    text-align: center;
+    text-align: center;
+    left: 100px;
+}
+
+#graph-background {
+    width: 250px;
+    height: 100%;
+    background-color: rgb(41, 111, 241);
+    position: absolute;
+    max-height: 350px;
+}
+
+#gem3 {
+    width: 103px;
+    height: 125px;
+}
+
+#gem1 {
+    height: 112px;
+    width: 116px;
+    margin-top: 16px;
+}
+
+#gem4 {
+    height: 118px;
+    width: 102px;
+    margin-top: 9px;
+}
+
+#gem2 {
+    height: 103px;
+    width: 103px;
+    margin-top: 22px;
+}
+
+#gem-container {
+    width: 671px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.value {
+    font-size: 30px;
+    position: absolute;
+    top: 290px;
+    margin-left: 40px;
+    visibility: hidden;
+}
+
+#gem-container2 {
+    width: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 506px;
+    left: 963px;
+    height: 60px;
+}
+
+.value2 {
+    font-size: 30px;
+    position: absolute;
+    top: 290px;
+    margin-left: 40px;
+    visibility: hidden;
+}
+
+#gem23 {
+    width: 39px;
+    height: 49px;
+}
+
+#gem21 {
+    height: 46px;
+    width: 50px;
+    margin-top: 3px;
+}
+
+#gem24 {
+    height: 49px;
+    width: 39px;
+    margin-top: 1px;
+}
+
+#gem22 {
+    height: 42px;
+    width: 42px;
+    margin-top: 6px;
+}
+
+#remove-container {
+    width: 250px;
+}
+
+#remove {
+    font-size: 20px;
+    position: absolute;
+    right: 390px;
+    top: 455px;
+}
+
+#button-container {
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    margin-top: 137px;
+    margin-left: 685px;
+    padding-bottom: 40px;
+}
+
+#reset, #restart {
+    width: 57px;
+    height: 28px;
+    font-size: 19px;
+    margin: 5px;
+}
+
+#wins, #losses {
+    font-size: 35px;
+    text-align: center;
+    width: 150px;
+}
+
+#scoreboard {
+    width: 300px;
+    display: flex;
+    position: absolute;
+    top: 446px;
+    left: 477px;
+}
